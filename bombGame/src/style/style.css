@@ -1,0 +1,24 @@
+table {
+    border-collapse: collapse;
+}
+
+tr, td {
+    width : 30px;
+    height: 30px;
+    text-align: center;
+    border : 1px solid black;
+}
+
+.Input {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Input input {
+    margin: 5px;
+    width : 6em;
+    height: 20px;
+}
